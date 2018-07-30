@@ -20,15 +20,13 @@
 
    **Required:**
 
-  `sub_code [string]` -  Must be 'ALL' or a list of subject codes separated by the comma symbol.
+   `subcode [string]` -  Must be 'ALL' or a list of subject codes separated by the comma symbol.
       
    **Optional:**
 
    `resyear [number]` - Results Year.
 
    `resperiod [number]` - Results Period.
-
-   `subcode [string]` - Subject Code.
 
    `setcode [string]` - Set Code.
 
@@ -37,8 +35,6 @@
    `objcode [string]` - Objective code.
 
    `asscode [string]` - Assessment code.
-
-   `patype [string]` - Progressive Assessment type. Valid values are QS and QT.
 
    `valtype [string]` - Validation type. Valid values are I (individual) and R (range).
 
@@ -49,30 +45,30 @@
 * **Success Response:**
 
     ```javascript
-{
-  DATA: [
     {
-      RES_PERIOD: 1,
-      SUB_CODE: "0024",
-      ARCHIVED_FLAG: "N",
-      VAL_TYPE: "I",
-      ASS_CODE: "QO",
-      MAX_RESULT: 5,
-      RES_YEAR: 2000,
-      SET_CODE: "A",
-      OBJ_CODE: "ACH",
-      MIN_RESULT: 1,
-      SUB_LEVEL: 8
+      DATA: [
+        {
+          RES_PERIOD: 1,
+          SUB_CODE: "0024",
+          ARCHIVED_FLAG: "N",
+          VAL_TYPE: "I",
+          ASS_CODE: "QO",
+          MAX_RESULT: 5,
+          RES_YEAR: 2000,
+          SET_CODE: "A",
+          OBJ_CODE: "ACH",
+          MIN_RESULT: 1,
+          SUB_LEVEL: 8
+        }
+      ],
+      token: {
+        resperiod: 1,
+        subcode: "0024",
+        timestamp: "{ts '2018-07-25 14:44:30'}",
+        resyear: 2000,
+        objcode: "ACH"
+      }
     }
-  ],
-  token: {
-    resperiod: 1,
-    subcode: "0024",
-    timestamp: "{ts '2018-07-25 14:44:30'}",
-    resyear: 2000,
-    objcode: "ACH"
-  }
-}
     ```
  
 * **Error Response:**
