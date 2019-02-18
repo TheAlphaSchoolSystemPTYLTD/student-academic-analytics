@@ -2,7 +2,7 @@
 
 **getStudentSubjects**
 ----
-  Returns an array of structured student subjetcs data comprising student code, timetable ID, subject code, subject description, year group and class in JSON format.
+  Returns an array of structured student subjetcs data comprising student code, timetable ID, subject code, subject description, year group, class and lesson count in JSON format.
 
 * **Version History:**
 
@@ -48,6 +48,7 @@
             CLASS: "A",
             TT_ID: 55,
             SUB_DESC: "Economics"
+            LESSON_COUNT: "45"
           }
       ],
       token: {
