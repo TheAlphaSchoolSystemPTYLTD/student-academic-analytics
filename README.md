@@ -14,3 +14,9 @@ Student Academic Analytics
   * getActivityAnalyticMapping
   * getStudentActivityAnalyticMapping
   * getActivityMinMaxResults
+  * getTestTypes
+  * getTestCriteria
+  * getStatisticGroups
+  * getStatisticTypes
+  * getStudentTestingData
+  * getStatisticTestingData
