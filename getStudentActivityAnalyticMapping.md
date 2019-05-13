@@ -77,11 +77,11 @@
 * **Sample Parameters:**
 
   ```javascript
-{
-  "studcode":"20094"
-}
+  {
+    "studcode":"20094"
+  }
   ```
-
+  
 * **Sample GET:** (With URL Encoded `token`)
 
   ```HTML
