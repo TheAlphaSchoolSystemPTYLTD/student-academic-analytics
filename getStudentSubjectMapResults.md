@@ -51,40 +51,61 @@
 * **Success Response:**
 
     ```javascript
-    {
-      DATA: [
-        {
-          RES_PERIOD: 1,
-          RESULT_MAPPING: 4,
-          SUB_CODE: "0031",
-          SUB_SHORT: "Mat1",
-          ARCHIVED_FLAG: "Y",
-          ASS_CODE: "QO",
-          RES_YEAR: 2010,
-          SUB_LONG: "Mathematics I",
-          CLASS: "A",
-          OBJ_CODE: "ACH",
-          RANKING: "",
-          SUB_YEAR_GRP: "",
-          PRD_DESC: "Semester 1, 2010",
-          SEMESTER: 1,
-          STUD_CODE: "AGNE003",
-          STUD_RESULT: "B",
-          PA_TYPE: "QS",
-          FACULTY_ID: "",
-          SUB_DESC: "Mathematics I",
-          SUB_LEVEL: 2
+      {
+        "DATA": [
+          {
+            "RES_PERIOD": 1,
+            "RESULT_MAPPING": 50,
+            "SUB_CODE": "0009",
+            "SUB_SHORT": "Japans",
+            "ARCHIVED_FLAG": "Y",
+            "ASS_CODE": "G+",
+            "RES_YEAR": 2013,
+            "SUB_LONG": "Japanese",
+            "CLASS": "D",
+            "OBJ_CODE": "OG",
+            "RANKING": "",
+            "SUB_YEAR_GRP": "",
+            "PRD_DESC": "2013 Semester 1",
+            "SEMESTER": 1,
+            "STUD_CODE": "0009601",
+            "STUD_RESULT": "D",
+            "PA_TYPE": "QT",
+            "FACULTY_ID": 4,
+            "SUB_DESC": "Japanese",
+            "SUB_LEVEL": 8
+          },
+          {
+            "RES_PERIOD": 1,
+            "RESULT_MAPPING": 48,
+            "SUB_CODE": "0009",
+            "SUB_SHORT": "Japans",
+            "ARCHIVED_FLAG": "Y",
+            "ASS_CODE": "N",
+            "RES_YEAR": 2013,
+            "SUB_LONG": "Japanese",
+            "CLASS": "D",
+            "OBJ_CODE": "RAW",
+            "RANKING": "",
+            "SUB_YEAR_GRP": "",
+            "PRD_DESC": "2013 Semester 1",
+            "SEMESTER": 1,
+            "STUD_CODE": "0009601",
+            "STUD_RESULT": 48,
+            "PA_TYPE": "QT",
+            "FACULTY_ID": 4,
+            "SUB_DESC": "Japanese",
+            "SUB_LEVEL": 8
+          }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "resyear": 2013,
+            "timestamp": "{ts '2021-01-22 11:41:06'}",
+            "resperiod": 1,
+            "studcode": "0009601"
         }
-      ],
-      token: {
-        resperiod: 1,
-        subcode: "0031",
-        studcode: "AGNE003",
-        timestamp: "{ts '2018-07-25 15:59:48'}",
-        resyear: 2010,
-        objcode: "ACH"
       }
-    }
     ```
  
 * **Error Response:**
@@ -106,13 +127,11 @@
 * **Sample Parameters:**
 
   ```javascript
-  {
-    "studcode":"AGNE003",
-    "subcode":"0031",
-    "objcode":"ACH",
-    "resyear":2010,
-    "resperiod":1
-  }
+     {
+        "studcode":"0009601",
+        "resyear":2013,
+        "resperiod":1
+      }
   ```
 
 * **Sample GET:** (With URL Encoded `token`)

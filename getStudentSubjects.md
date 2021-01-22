@@ -42,22 +42,31 @@
 
   ```javascript
     {
-      DATA: [
+      "DATA": [
         {
-            SUB_CODE: "0027",
-            YEAR_GRP: 11,
-            STUD_CODE: "BELL001",
-            CLASS: "A",
-            TT_ID: 55,
-            SUB_DESC: "Economics"
-            LESSON_COUNT: "45"
-          }
+          "SUB_CODE": "0005",
+          "YEAR_GRP": 11,
+          "STUD_CODE": "0009709",
+          "CLASS": "B",
+          "TT_ID": 84,
+          "SUB_DESC": "French",
+          "LESSON_COUNT": 11
+        },
+        {
+          "SUB_CODE": "0021",
+          "YEAR_GRP": 11,
+          "STUD_CODE": "0009709",
+          "CLASS": "A",
+          "TT_ID": 84,
+          "SUB_DESC": "Modern History",
+          "LESSON_COUNT": 12
+        }
       ],
-      token: {
-        subcode: "0027",
-        studcode: "BELL001",
-        timestamp: "{ts '2018-07-25 10:13:56'}",
-        tt_id: 55
+      "__tassversion": "01.053.3.000",
+      "token": {
+          "timestamp": "{ts '2021-01-22 10:15:05'}",
+          "studcode": "0009709",
+          "ttid": 84
       }
     }
   ```
@@ -82,9 +91,8 @@
 
   ```javascript
     {
-      "studcode":"BELL001",
-      "subcode":"0027",
-      "ttid":"55"
+      "studcode":"0009709",
+      "ttid":"84"
     }
   ```
 

@@ -41,31 +41,32 @@
 * **Success Response:**
 
 	```javascript
-	{
-		"DATA": [
-			{
-				"PL_FLAG": "Y",
-				"YEAR_GRP": 6,
-				"STAT_TYPE": "AVG",
-				"RESULT_STAT": 12345.12345,
-				"TEST_CODE": "TEST",
-				"TK_FLAG": "Y",
-				"GROUP_CODE": "N",
-				"CRITERIA_CODE": "TXT",
-				"SC_FLAG": "Y",
-				"STUDY_YR": 2015
+		{
+			"DATA": [
+					{
+						"PL_FLAG": "Y",
+						"YEAR_GRP": 6,
+						"STAT_TYPE": "AVG",
+						"RESULT_STAT": 12345.12345,
+						"TEST_CODE": "TEST",
+						"TK_FLAG": "Y",
+						"GROUP_CODE": "N",
+						"CRITERIA_CODE": "TXT",
+						"SC_FLAG": "Y",
+						"STUDY_YR": 2015
+					}
+			],
+			"__tassversion": "01.053.3.000",
+			"token": {
+				"year_grp": 6,
+				"stat_type": "AVG",
+				"test_code": "TEST",
+				"timestamp": "{ts '2021-01-22 16:41:00'}",
+				"group_code": "N",
+				"criteria_code": "TXT",
+				"study_yr": 2015
 			}
-		],
-		"token": {
-			"year_grp": 6,
-			"stat_type": "AVG",
-			"test_code": "TEST",
-			"timestamp": "{ts '2019-03-21 09:52:33'}",
-			"group_code": "N",
-			"criteria_code": "TXT",
-			"study_yr": 2015
 		}
-	}
 	```
 
 * **Error Response:**

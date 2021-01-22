@@ -46,27 +46,40 @@
 
     ```javascript
     {
-      DATA: [
-        {
-          RES_PERIOD: 1,
-          SUB_CODE: "0024",
-          ARCHIVED_FLAG: "N",
-          VAL_TYPE: "I",
-          ASS_CODE: "QO",
-          MAX_RESULT: 5,
-          RES_YEAR: 2000,
-          SET_CODE: "A",
-          OBJ_CODE: "ACH",
-          MIN_RESULT: 1,
-          SUB_LEVEL: 8
-        }
+      "DATA": [
+          {
+            "RES_PERIOD": 1,
+            "SUB_CODE": "0024",
+            "ARCHIVED_FLAG": "Y",
+            "VAL_TYPE": "I",
+            "ASS_CODE": "QT",
+            "MAX_RESULT": 50,
+            "RES_YEAR": 2015,
+            "SET_CODE": "A",
+            "OBJ_CODE": "OG",
+            "MIN_RESULT": 0,
+            "SUB_LEVEL": 8
+          },
+          {
+            "RES_PERIOD": 1,
+            "SUB_CODE": "0024",
+            "ARCHIVED_FLAG": "Y",
+            "VAL_TYPE": "I",
+            "ASS_CODE": "G+",
+            "MAX_RESULT": 150,
+            "RES_YEAR": 2015,
+            "SET_CODE": "A",
+            "OBJ_CODE": "OG",
+            "MIN_RESULT": 10,
+            "SUB_LEVEL": 10
+          }
       ],
-      token: {
-        resperiod: 1,
-        subcode: "0024",
-        timestamp: "{ts '2018-07-25 14:44:30'}",
-        resyear: 2000,
-        objcode: "ACH"
+      "__tassversion": "01.053.3.000",
+      "token": {
+          "resyear": 2015,
+          "timestamp": "{ts '2021-01-22 11:23:52'}",
+          "resperiod": 1,
+          "subcode": "0024"
       }
     }
     ```
@@ -90,12 +103,11 @@
 * **Sample Parameters:**
 
   ```javascript
-  {
-    "subcode":"0024",
-    "objcode":"ACH",
-    "resyear":2000,
-    "resperiod":1
-  }
+    {
+        "subcode":"0024",
+        "resyear":2015,
+        "resperiod":1
+    }
   ```
 
 * **Sample GET:** (With URL Encoded `token`)

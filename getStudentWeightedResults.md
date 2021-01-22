@@ -41,32 +41,47 @@
 * **Success Response:**
 
     ```javascript
-    {
-      DATA: [
-        {
-          RES_PERIOD: 2,
-          RESULT_MAPPING: 4,
-          ARCHIVED_FLAG: "Y",
-          ASS_CODE: "QO",
-          RES_YEAR: 2011,
-          WEIGHTED_COUNT: 1,
-          OBJ_CODE: "ACH",
-          SEMESTER: 2,
-          YEAR_GRP: 12,
-          STUD_CODE: "LANE001",
-          STUD_RESULT: "B",
-          UNWEIGHTED_COUNT: 1,
-          WEIGHTED_SUM: 4
+      {
+        "DATA": [
+          {
+            "RES_PERIOD": 1,
+            "RESULT_MAPPING": 81.25,
+            "ARCHIVED_FLAG": "Y",
+            "ASS_CODE": "G+",
+            "RES_YEAR": 2013,
+            "WEIGHTED_COUNT": 8,
+            "OBJ_CODE": "OG",
+            "SEMESTER": 1,
+            "YEAR_GRP": 8,
+            "STUD_CODE": "0009601",
+            "STUD_RESULT": "",
+            "UNWEIGHTED_COUNT": 8,
+            "WEIGHTED_SUM": 650
+          },
+          {
+            "RES_PERIOD": 1,
+            "RESULT_MAPPING": 64,
+            "ARCHIVED_FLAG": "Y",
+            "ASS_CODE": "N",
+            "RES_YEAR": 2013,
+            "WEIGHTED_COUNT": 8,
+            "OBJ_CODE": "RAW",
+            "SEMESTER": 1,
+            "YEAR_GRP": 8,
+            "STUD_CODE": "0009601",
+            "STUD_RESULT": 64,
+            "UNWEIGHTED_COUNT": 8,
+            "WEIGHTED_SUM": 512
+          }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "resyear": 2013,
+            "timestamp": "{ts '2021-01-22 11:32:28'}",
+            "resperiod": 1,
+            "studcode": "0009601"
         }
-      ],
-      token: {
-        resperiod: 2,
-        studcode: "LANE001",
-        timestamp: "{ts '2018-07-25 15:30:51'}",
-        resyear: 2011,
-        objcode: "ACH"
       }
-    }
     ```
  
 * **Error Response:**
@@ -88,12 +103,11 @@
 * **Sample Parameters:**
 
   ```javascript
-  {
-    "studcode":"LANE001",
-    "objcode":"ACH",
-    "resyear":2011,
-    "resperiod":2
-  }
+    {
+      "studcode":"0009601",
+      "resyear":2013,
+      "resperiod":1
+    }
   ```
 
 * **Sample GET:** (With URL Encoded `token`)

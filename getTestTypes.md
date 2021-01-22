@@ -31,70 +31,39 @@
 * **Success Response:**
 
 	```javascript
-	{
-		"DATA": [
-			{
-				"CODE": "AGAT",
-				"DESC": "Acer General Ability Test"
-			},
-			{
-				"CODE": "ALLWELL",
-				"DESC": "Allwell"
-			},
-			{
-				"CODE": "ATSIB",
-				"DESC": "ATSI Bandscaling"
-			},
-			{
-				"CODE": "TEST",
-				"DESC": "DavidH test"
-			},
-			{
-				"CODE": "NAPLAN",
-				"DESC": "NAPLAN"
-			},
-			{
-				"CODE": "OLSAT",
-				"DESC": "Otis-Lennon School Ability Test"
-			},
-			{
-				"CODE": "PATC",
-				"DESC": "PAT Comprehension"
-			},
-			{
-				"CODE": "PATM",
-				"DESC": "PAT Maths"
-			},
-			{
-				"CODE": "PATR",
-				"DESC": "PAT Reading"
-			},
-			{
-				"CODE": "PATS",
-				"DESC": "PAT Spelling"
-			},
-				{
-				"CODE": "PIPS",
-				"DESC": "PIPS"
-			},
-			{
-				"CODE": "WOD1",
-				"DESC": "Writing on Demand (1)"
-			},
-			{
-				"CODE": "WOD2",
-				"DESC": "Writing on Demand (2)"
-			},
-			{
-				"CODE": "WOD3",
-				"DESC": "Writing on Demand (3)"
+		{
+			"DATA": [
+					{
+						"CODE": "AGAT",
+						"DESC": "Acer General Ability Test"
+					},
+					{
+						"CODE": "PATC",
+						"DESC": "PAT Comprehension"
+					},
+					{
+						"CODE": "PATM",
+						"DESC": "PAT Maths"
+					},
+					{
+						"CODE": "PATR",
+						"DESC": "PAT Reading"
+					},
+					{
+						"CODE": "PATS",
+						"DESC": "PAT Spelling"
+					},
+					{
+						"CODE": "WOD1",
+						"DESC": "Writing on Demand (1)"
+					}
+			],
+			"__tassversion": "01.053.3.000",
+			"token": {
+					"timestamp": "{ts '2021-01-22 14:15:34'}",
+					"codeonly": false
 			}
-		],
-		"token": {
-			"timestamp": "{ts '2019-03-15 15:09:23'}",
-			"codeonly": "false"
 		}
-	}
 	```
 
 * **Error Response:**

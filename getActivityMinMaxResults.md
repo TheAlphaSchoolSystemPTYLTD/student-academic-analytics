@@ -35,22 +35,31 @@
 * **Success Response:**
 
     ```javascript
-    {
-      DATA: [
-        {
-          ACTIVITY_NAME: "Looking for Alibrandi - Character Study",
-          VAL_TYPE: "I",
-          ASS_CODE: "G+",
-          MAX_RESULT: 15,
-          OBJ_CODE: "CO",
-          MIN_RESULT: 1
+      {
+        "DATA": [
+            {
+              "ACTIVITY_NAME": "Holiday Stories",
+              "VAL_TYPE": "I",
+              "ASS_CODE": "G+",
+              "MAX_RESULT": 150,
+              "OBJ_CODE": "CO",
+              "MIN_RESULT": 10
+            }
+            {
+              "ACTIVITY_NAME": "Which volcanoes are erupting?",
+              "VAL_TYPE": "R",
+              "ASS_CODE": 30,
+              "MAX_RESULT": 30,
+              "OBJ_CODE": "CO",
+              "MIN_RESULT": 0
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "timestamp": "{ts '2021-01-22 14:07:40'}",
+            "objcode": "CO"
         }
-      ],
-      token: {
-        timestamp: "{ts '2018-07-26 10:38:11'}",
-        objcode: "CO"
       }
-    }
     ```
  
 * **Error Response:**
@@ -66,9 +75,7 @@
 * **Sample Parameters:**
 
   ```javascript
-{
-  "objcode":"CO"
-}
+{ "objcode":"CO" }
   ```
 
 * **Sample GET:** (With URL Encoded `token`)

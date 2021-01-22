@@ -31,38 +31,39 @@
 * **Success Response:**
 
 	```javascript
-	{
-		"StatisticTypes": [
-			{
-				"CODE": "AVG",
-				"DESC": "Average"
-			},
-			{
-				"CODE": "MAX",
-				"DESC": "Maximum"
-			},
-			{
-				"CODE": "Q3",
-				"DESC": "Quartile 3"
-			},
-			{
-				"CODE": "MED",
-				"DESC": "Median"
-			},
-			{
-				"CODE": "Q1",
-				"DESC": "Quartile 1"
-			},
-			{
-				"CODE": "MIN",
-				"DESC": "Minimum"
+		{
+			"DATA": [
+					{
+						"CODE": "AVG",
+						"DESC": "Average"
+					},
+					{
+						"CODE": "MAX",
+						"DESC": "Maximum"
+					},
+					{
+						"CODE": "Q3",
+						"DESC": "Quartile 3"
+					},
+					{
+						"CODE": "MED",
+						"DESC": "Median"
+					},
+					{
+						"CODE": "Q1",
+						"DESC": "Quartile 1"
+					},
+					{
+						"CODE": "MIN",
+						"DESC": "Minimum"
+					}
+			],
+			"__tassversion": "01.053.3.000",
+			"token": {
+				"timestamp": "{ts '2021-01-22 14:28:27'}",
+				"codeonly": false
 			}
-		],
-		"token": {
-			"timestamp": "{ts '2019-03-15 15:18:55'}",
-			"codeonly": "false"
 		}
-	}
 	```
 
 * **Error Response:**

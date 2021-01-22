@@ -37,25 +37,37 @@
 * **Success Response:**
 
     ```javascript
-    {
-      DATA: [
-        {
-          ACTIVITY_NAME: "Looking for Alibrandi - Character Study",
-          COHORT_RANK: 2,
-          STUD_CODE: 20094,
-          STUD_RESULT: 10,
-          ANALYTIC_MAPPING: 10,
-          ASS_CODE: 2,
-          CLASS: "A",
-          OBJ_CODE: "I",
-          CLASS_RANK: 2
+      {
+        "DATA": [
+            {
+            "ACTIVITY_NAME": "Which volcanoes are erupting?",
+            "COHORT_RANK": 14,
+            "STUD_CODE": "0010131",
+            "STUD_RESULT": 60,
+            "ANALYTIC_MAPPING": 60,
+            "ASS_CODE": "_N",
+            "CLASS": "B",
+            "OBJ_CODE": "_ATS",
+            "CLASS_RANK": 6
+            },
+            {
+            "ACTIVITY_NAME": "Which volcanoes are erupting?",
+            "COHORT_RANK": 1,
+            "STUD_CODE": "0010131",
+            "STUD_RESULT": 20,
+            "ANALYTIC_MAPPING": 20,
+            "ASS_CODE": 20,
+            "CLASS": "B",
+            "OBJ_CODE": "APP",
+            "CLASS_RANK": 1
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "timestamp": "{ts '2021-01-22 14:05:31'}",
+            "studcode": "0010131"
         }
-      ],
-      token: {
-        studcode: 20094,
-        timestamp: "{ts '2018-07-26 09:56:16'}"
       }
-    }
     ```
  
 * **Error Response:**
@@ -77,9 +89,7 @@
 * **Sample Parameters:**
 
   ```javascript
-  {
-    "studcode":"20094"
-  }
+  {"studcode":"0010131"}
   ```
   
 * **Sample GET:** (With URL Encoded `token`)

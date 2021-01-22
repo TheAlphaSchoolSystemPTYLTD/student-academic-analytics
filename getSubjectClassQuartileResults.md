@@ -64,32 +64,44 @@
 * **Success Response:**
 
     ```javascript
-    {
-      DATA: [
-        {
-          RES_PERIOD: 1,
-          SUB_CODE: "0027",
-          ARCHIVED_FLAG: "Y",
-          STAT_TYPE: "AVG",
-          ASS_CODE: "PC",
-          PA_TYPE: "",
-          RES_YEAR: 2010,
-          CLASS: "A",
-          OBJ_CODE: "AS",
-          RESULT: 84.5,
-          SUB_LEVEL: 11
+      {
+        "DATA": [
+            {
+              "RES_PERIOD": 1,
+              "SUB_CODE": "0024",
+              "ARCHIVED_FLAG": "Y",
+              "STAT_TYPE": "AVG",
+              "ASS_CODE": "QT",
+              "PA_TYPE": "QT",
+              "RES_YEAR": 2015,
+              "CLASS": "A",
+              "OBJ_CODE": "OG",
+              "RESULT": 40,
+              "SUB_LEVEL": 8
+            },
+            {
+              "RES_PERIOD": 1,
+              "SUB_CODE": "0024",
+              "ARCHIVED_FLAG": "Y",
+              "STAT_TYPE": "MAX",
+              "ASS_CODE": "QT",
+              "PA_TYPE": "QT",
+              "RES_YEAR": 2015,
+              "CLASS": "A",
+              "OBJ_CODE": "OG",
+              "RESULT": 40,
+              "SUB_LEVEL": 8
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "resyear": 2015,
+            "timestamp": "{ts '2021-01-22 11:10:23'}",
+            "resperiod": 1,
+            "class": "A",
+            "subcode": "0024"
         }
-      ],
-      token: {
-        resperiod: 1,
-        subcode: "0027",
-        stattype: "AVG",
-        timestamp: "{ts '2018-07-25 12:05:58'}",
-        resyear: 2010,
-        class: "A",
-        objcode: "AS"
       }
-    }
     ```
  
 * **Error Response:**
@@ -112,12 +124,10 @@
 
   ```javascript
   {
-    "subcode":"0027",
-    "resyear":2010,
+    "subcode":"0024",
+    "resyear":2015,
     "resperiod":1,
-    "objcode":"AS",
-    "class":"A",
-    "stattype":"AVG"
+     "class":"A"
   }
   ```
 

@@ -56,25 +56,35 @@
 * **Success Response:**
 
     ```javascript
-    {
-      DATA: [
-        {
-          ACTIVITY_NAME: "Looking for Alibrandi - Character Study",
-          ACT_STATS_RESULT: 19.88,
-          STAT_TYPE: "AVG",
-          ANALYTIC_MAPPING: 19.88,
-          ASS_CODE: 2,
-          CLASS: "A",
-          OBJ_CODE: "I"
+      {
+        "DATA": [
+            {
+              "ACTIVITY_NAME": "Book Review on Captain Corelli's Mandolin",
+              "ACT_STATS_RESULT": 12.6,
+              "STAT_TYPE": "AVG",
+              "ANALYTIC_MAPPING": 15,
+              "ASS_CODE": "G+",
+              "CLASS": "A",
+              "OBJ_CODE": "OG"
+            },
+            {
+              "ACTIVITY_NAME": "Flag of China",
+              "ACT_STATS_RESULT": 21.64,
+              "STAT_TYPE": "AVG",
+              "ANALYTIC_MAPPING": 21.64,
+              "ASS_CODE": "PN",
+              "CLASS": "A",
+              "OBJ_CODE": "_ATS"
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "stattype": "AVG",
+            "timestamp": "{ts '2021-01-22 13:57:42'}",
+            "objcode": "ALL",
+            "class": "A"
         }
-      ],
-      token: {
-        stattype: "AVG",
-        timestamp: "{ts '2018-07-25 17:41:57'}",
-        class: "A",
-        obj_code: "ALL"
       }
-    }
     ```
  
 * **Error Response:**

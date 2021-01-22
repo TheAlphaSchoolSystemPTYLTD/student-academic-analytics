@@ -45,24 +45,35 @@
 * **Success Response:**
 
     ```javascript
-    {
-      DATA: [
-        {
-          SUB_CODE: "0001",
-          YEAR_GRP: 12,
-          TTDATE: "2018-08-01 00:00:00.0",
-          PRD_CODE: 5,
-          CLASS: "A",
-          TT_ID: 84,
-          DAY_CODE: 3
+      {
+        "DATA": [
+            {
+              "SUB_CODE": "LEARNING",
+              "YEAR_GRP": 8,
+              "TTDATE": "2020-09-03 00:00:00.0",
+              "PRD_CODE": 4,
+              "CLASS": "C",
+              "TT_ID": 93,
+              "DAY_CODE": 9
+            },
+            {
+              "SUB_CODE": "ANCH20",
+              "YEAR_GRP": 10,
+              "TTDATE": "2020-09-04 00:00:00.0",
+              "PRD_CODE": 3,
+              "CLASS": "E",
+              "TT_ID": 93,
+              "DAY_CODE": 10
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+              "datefrom": "03/09/2020",
+              "timestamp": "{ts '2021-01-22 14:10:19'}",
+              "ttid": 93,
+              "dateto": "05/09/2020"
         }
-      ],
-      token: {
-        daycode: "3",
-        timestamp: "{ts '2018-07-24 17:16:03'}",
-        ttid: "84"
       }
-    }
     ```
  
 * **Error Response:**
@@ -79,9 +90,9 @@
 
   ```javascript
     { 
-      "ttid":"84",
-      "datefrom":"31/03/2018",
-      "dateto":"31/03/2018"
+      "ttid":"93",
+      "datefrom":"02/09/2020",
+      "dateto":"05/09/2020"
     }
   ```
 
