@@ -31,54 +31,27 @@
 * **Success Response:**
 
 	```javascript
-	{
-		"DATA": [
-			{
-				"CODE": "N",
-				"DESC": "National"
-			},
-			{
-				"CODE": "NB",
-				"DESC": "National Boys"
-			},
-			{
-				"CODE": "NG",
-				"DESC": "National Girls"
-			},
-			{
-				"CODE": "ST",
-				"DESC": "State"
-			},
-			{
-				"CODE": "STB",
-				"DESC": "State Boys"
-			},
-			{
-				"CODE": "STG",
-				"DESC": "State Girls"
-			},
-			{
-				"CODE": "SC",
-				"DESC": "School"
-			},
-			{
-				"CODE": "SCB",
-				"DESC": "School Boys"
-			},
-			{
-				"CODE": "SCG",
-				"DESC": "School Girls"
-			},
-			{
-				"CODE": "A",
-				"DESC": "Association"
+		{
+			"DATA": [
+					{
+						"CODE": "N",
+						"DESC": "National"
+					},
+					{
+						"CODE": "NB",
+						"DESC": "National Boys"
+					},
+					{
+						"CODE": "NG",
+						"DESC": "National Girls"
+					}
+			],
+			"__tassversion": "01.053.3.000",
+			"token": {
+				"timestamp": "{ts '2021-01-22 14:27:32'}",
+				"codeonly": false
 			}
-		],
-		"token": {
-			"timestamp": "{ts '2019-03-21 09:39:23'}",
-			"codeonly": false
-		}
-	}
+		}	
 	```
 
 * **Error Response:**

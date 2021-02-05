@@ -44,24 +44,39 @@
 
     ```javascript
     {
-      DATA: [
-        {
-          SUB_CODE: "0027",
-          YEAR_GRP: 11,
-          ACCEPT_IND: "N",
-          STUD_CODE: "BELL001",
-          PRD_CODE: 2,
-          CLASS: "A",
-          WEEK: 7,
-          TT_ID: 55,
-          ABSENT_DATE: "2011-08-17 00:00:00.0",
-          DAY_CODE: 3
-        }
+      "DATA": [
+          {
+            "SUB_CODE": "HOME9997",
+            "YEAR_GRP": 11,
+            "ACCEPT_IND": "N",
+            "STUD_CODE": "0009709",
+            "PRD_CODE": 1,
+            "CLASS": "A",
+            "WEEK": 22,
+            "TT_ID": 87,
+            "ABSENT_DATE": "2019-06-05 00:00:00.0",
+            "DAY_CODE": 8
+          },
+          {
+            "SUB_CODE": "0021",
+            "YEAR_GRP": 11,
+            "ACCEPT_IND": "N",
+            "STUD_CODE": "0009709",
+            "PRD_CODE": 3,
+            "CLASS": "A",
+            "WEEK": 22,
+            "TT_ID": 87,
+            "ABSENT_DATE": "2019-06-05 00:00:00.0",
+            "DAY_CODE": 8
+          }
       ],
-      token: {
-        subcode: "0027",
-        studcode: "BELL001",
-        timestamp: "{ts '2018-07-24 17:16:03'}"
+      "__tassversion": "01.053.3.000",
+      "token": {
+            "absentdatefrom": "01/06/2019",
+            "timestamp": "{ts '2021-01-22 08:50:09'}",
+            "studcode": "0009709",
+            "currentstatus": "current",
+            "absentdateto": "30/06/2019"
       }
     }
     ```
@@ -81,9 +96,9 @@
   ```javascript
     { 
       "currentstatus":"current",
-      "studcode":"20073",
-      "absentdatefrom":"31/03/2018",
-      "absentdateto":"31/03/2018"
+      "studcode":"0009709",
+      "absentdatefrom":"01/06/2019",
+      "absentdateto":"30/06/2019"
     }
   ```
 

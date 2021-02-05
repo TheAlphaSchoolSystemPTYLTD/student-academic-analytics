@@ -47,34 +47,33 @@
 * **Success Response:**
 
     ```javascript
-    {
-      DATA: [
-        {
-          RES_PERIOD: "",
-          RESULT_MAPPING: "",
-          SUB_CODE: "0017",
-          ASS_CODE: "",
-          RES_YEAR: 2017,
-          CLASS: "A",
-          OBJ_CODE: "",
-          RANKING: "",
-          SUB_YEAR_GRP: "",
-          PROCESS_TEXT: "No LMS flag",
-          SEMESTER: 2,
-          STUD_CODE: "JONE001",
-          STUD_RESULT: "",
-          PROCESS_CODE: 1,
-          COMP_PERCENT: "",
-          SUB_LEVEL: 11
+      {
+        "DATA": [
+            {
+                RES_PERIOD: "",
+                RESULT_MAPPING: "",
+                SUB_CODE: "0017",
+                ASS_CODE: "",
+                RES_YEAR: 2017,
+                CLASS: "A",
+                OBJ_CODE: "",
+                RANKING: "",
+                SUB_YEAR_GRP: "",
+                PROCESS_TEXT: "No LMS flag",
+                SEMESTER: 2,
+                STUD_CODE: "JONE001",
+                STUD_RESULT: "",
+                PROCESS_CODE: 1,
+                COMP_PERCENT: "",
+                SUB_LEVEL: 11
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "timestamp": "{ts '2021-01-22 13:54:43'}",
+            "studcode": "0010141"
         }
-      ],
-      token: {
-        subcode: "0017",
-        studcode: "JONE001",
-        timestamp: "{ts '2018-07-25 16:54:11'}",
-        res_year: 2017
       }
-    }
     ```
  
 * **Error Response:**
@@ -97,9 +96,8 @@
 
   ```javascript
   {
-    "studcode":"JONE001",
-    "subcode":"0017",
-    "resyear":2017
+    "studcode":"0009601",
+    "resyear":2013
   }
   ```
 

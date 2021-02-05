@@ -37,28 +37,29 @@
 * **Success Response:**
 
 	```javascript
-	{
-		"DATA": [
-			{
-				"TEXT_RESULT": "WP",
-				"YEAR_GRP": "",
-				"INT_RESULT": "",
-				"STUD_CODE": "0010050",
-				"TEST_CODE": 2013,
-				"DEC_RESULT": "NAPLAN",
-				"CRITERIA_CODE": "Banksia",
-				"STUDY_YR": 9
+		{
+			"DATA": [
+					{
+						"TEXT_RESULT": "WP",
+						"YEAR_GRP": "",
+						"INT_RESULT": "",
+						"STUD_CODE": "0010050",
+						"TEST_CODE": 2013,
+						"DEC_RESULT": "NAPLAN",
+						"CRITERIA_CODE": "Banksia",
+						"STUDY_YR": 9
+					}
+			],
+			"__tassversion": "01.053.3.000",
+			"token": {
+					"year_grp": 9,
+					"stud_code": "0010050",
+					"test_code": "NAPLAN",
+					"timestamp": "{ts '2021-01-22 16:39:53'}",
+					"criteria_code": "WP",
+					"study_yr": 2013
 			}
-		],
-		"token": {
-			"year_grp": 9,
-			"stud_code": "0010050",
-			"test_code": "NAPLAN",
-			"timestamp": "{ts '2019-03-21 09:53:55'}",
-			"criteria_code": "WP",
-			"study_yr": 2013
 		}
-	}
 	```
 
 * **Error Response:**

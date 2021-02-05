@@ -31,32 +31,42 @@
 * **Success Response:**
 
 	```javascript
-	{
-		"DATA": [
-			{
-				"PL_FLG": "Y",
-				"CRITERIA_DESC": "Reading Scale Score",
-				"TEST_CODE": "NAPLAN",
-				"RESULT_DATA_TYPE": "I",
-				"SC_FLG": "Y",
-				"CRITERIA_CODE": "RSS",
-				"TK_FLG": "Y"
-			},
-			{
-				"PL_FLG": "Y",
-				"CRITERIA_DESC": "Spelling Scale Score",
-				"TEST_CODE": "NAPLAN",
-				"RESULT_DATA_TYPE": "I",
-				"SC_FLG": "Y",
-				"CRITERIA_CODE": "SSS",
-				"TK_FLG": "Y"
+		{
+			"DATA": [
+					{
+						"PL_FLG": "Y",
+						"CRITERIA_DESC": "Reading Scale Score",
+						"TEST_CODE": "NAPLAN",
+						"RESULT_DATA_TYPE": "I",
+						"SC_FLG": "Y",
+						"CRITERIA_CODE": "RSS",
+						"TK_FLG": "Y"
+					},
+					{
+						"PL_FLG": "Y",
+						"CRITERIA_DESC": "Spelling Scale Score",
+						"TEST_CODE": "NAPLAN",
+						"RESULT_DATA_TYPE": "I",
+						"SC_FLG": "Y",
+						"CRITERIA_CODE": "SSS",
+						"TK_FLG": "Y"
+					},
+					{
+						"PL_FLG": "Y",
+						"CRITERIA_DESC": "Grammar and Punctuation Scale Score",
+						"TEST_CODE": "NAPLAN",
+						"RESULT_DATA_TYPE": "I",
+						"SC_FLG": "Y",
+						"CRITERIA_CODE": "GPSS",
+						"TK_FLG": "Y"
+					}
+			],
+			"__tassversion": "01.053.3.000",
+			"token": {
+					"test_code": "NAPLAN",
+					"timestamp": "{ts '2021-01-22 14:17:47'}"
 			}
-		],
-		"token": {
-			"test_code": "NAPLAN",
-			"timestamp": "{ts '2019-03-15 15:11:03'}"
 		}
-	}
 	```
 
 * **Error Response:**

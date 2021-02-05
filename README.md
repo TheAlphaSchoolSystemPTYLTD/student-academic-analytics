@@ -22,6 +22,7 @@
   * getStudentSubjectMapResults
   * getStudentSubjectResultsProcess
   * getActivityAnalyticMapping
+  * getActivityMinMaxResults
   * getStudentActivityAnalyticMapping
   * getActivityMinMaxResults
   * getTestTypes

@@ -47,34 +47,51 @@
 * **Success Response:**
 
     ```javascript
-    {
-      DATA: [
-        {
-          RES_PERIOD: 1,
-          SUB_CODE: "0027",
-          SUB_SHORT: "Econmc",
-          ARCHIVED_FLAG: "Y",
-          RES_YEAR: 2010,
-          TCH_CODE: "JH",
-          SUB_LONG: "Economics",
-          CLASS: "A",
-          SUB_YEAR_GRP: "",
-          SEMESTER: 1,
-          TCH_NAME: "Mr J Henderson",
-          YEAR_GRP: 11,
-          STUD_CODE: "BELL001",
-          FACULTY_ID: "",
-          SUB_DESC: "Economics"
+      {
+        "DATA": [
+            {
+              "RES_PERIOD": 1,
+              "SUB_CODE": "0009",
+              "SUB_SHORT": "Japans",
+              "ARCHIVED_FLAG": "Y",
+              "RES_YEAR": 2013,
+              "TCH_CODE": "RMC",
+              "SUB_LONG": "Japanese",
+              "CLASS": "D",
+              "SUB_YEAR_GRP": "",
+              "SEMESTER": 1,
+              "TCH_NAME": "Mr R McClelland",
+              "YEAR_GRP": 8,
+              "STUD_CODE": "0009601",
+              "FACULTY_ID": 4,
+              "SUB_DESC": "Japanese"
+            },
+            {
+              "RES_PERIOD": 1,
+              "SUB_CODE": "0024",
+              "SUB_SHORT": "Geog",
+              "ARCHIVED_FLAG": "Y",
+              "RES_YEAR": 2013,
+              "TCH_CODE": "GB",
+              "SUB_LONG": "Geography",
+              "CLASS": "D",
+              "SUB_YEAR_GRP": "",
+              "SEMESTER": 1,
+              "TCH_NAME": "Mrs G F Battersby",
+              "YEAR_GRP": 8,
+              "STUD_CODE": "0009601",
+              "FACULTY_ID": 3,
+              "SUB_DESC": "Geography"
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "resyear": 2013,
+            "timestamp": "{ts '2021-01-22 10:54:21'}",
+            "resperiod": 1,
+            "studcode": "0009601"
         }
-      ],
-      token: {
-      resperiod: 1,
-      subcode: "0027",
-      studcode: "BELL001",
-      timestamp: "{ts '2018-07-25 10:54:29'}",
-      resyear: 2010
       }
-    }
     ```
  
 * **Error Response:**
@@ -97,9 +114,8 @@
 
   ```javascript
   {
-    "studcode":"BELL001",
-    "subcode":"0027",
-    "resyear":2010,
+    "studcode":"0009601",
+    "resyear":2013,
     "resperiod":1
   }
   ```
